@@ -2,12 +2,14 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SIMPUS-Mini | Daftar Anggota</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <header>
         <h1>SIMPUS-Mini</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
             <ul>
                 <li><a href="../index.html">Beranda</a></li>
@@ -17,11 +19,13 @@
                 <li><a href="tambah.html">Tambah Anggota</a></li>
             </ul>
         </nav>
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
     </header>
 
     <main>
         <section>
             <h2>Daftar Anggota</h2>
+            <div class="table-responsive">
             <table>
                 <thead>
                     <tr>
@@ -58,11 +62,12 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 2</p>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 3 & 4</p>
     </footer>
 </body>
 </html>
